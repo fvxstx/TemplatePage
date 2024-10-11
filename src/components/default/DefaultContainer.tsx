@@ -23,8 +23,16 @@ const DefaultContainer = ({
         } items-center w-full`}
       >
         <div
-          id={imgPath}
-          className="bg-[#2C59F9] w-72 h-52 md:w-[40rem] md:h-96 rounded-3xl mb-12 md:mb-0"
+          className={`w-72 h-52 md:w-[40rem] md:h-96 rounded-3xl mb-12 md:mb-0 ${
+            imgPath.length > 0 ? "block" : "hidden"
+          }`}
+        >
+          <img src={imgPath} alt="" className="w-full h-full" />
+        </div>
+        <div
+          className={`w-72 h-52 md:w-[40rem] md:h-96 rounded-3xl mb-12 md:mb-0 bg-[#3561FE] ${
+            imgPath.length > 0 ? "hidden" : "block"
+          }`}
         ></div>
         <div className="max-w-[460px]">
           <h1 className="text-3xl font-bold text-left w-full">{title}</h1>

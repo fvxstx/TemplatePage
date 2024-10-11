@@ -41,7 +41,7 @@ export default function Home() {
           <DefaultContainer
             title={"Simulações"}
             subtitle={"de Monte"}
-            imgPath={""}
+            imgPath={"/assets/simulacao.png"}
             side={true}
             highlighted={"Carlo e Backtests"}
             description="Teste diferentes cenários com simulações robustas que projetam resultados futuros, ajudando você a tomar decisões mais assertivas em diversos contextos de mercado"
@@ -49,7 +49,7 @@ export default function Home() {
           <DefaultContainer
             title={"Calculadora"}
             subtitle={"de Investimentos"}
-            imgPath={""}
+            imgPath={"/assets/calculadora.png"}
             side={false}
             highlighted={"compreensiva"}
             description="Insights poderosos, relatórios customizáveis e simulações que simplificam suas decisões financeiras. Entre para a lista de espera e tenha acesso a tudo o que você precisa para atingir seus objetivos de liberdade financeira."

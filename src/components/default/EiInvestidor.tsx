@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 const EIInvestidor = () => {
   return (
     <div
-      className={`h-full bg-[#050919] text-white flex items-center justify-center pt-16 px-6 w-full`}
+      className={`h-full bg-[#050919] text-white flex items-center justify-center pt-16 px-6 w-full mb-24`}
     >
       <div className="flex-1 flex flex-col justify-center md:flex-row md:justify-around items-center md:gap-6 w-full">
         <img
