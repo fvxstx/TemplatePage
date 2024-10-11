@@ -7,7 +7,7 @@ import {
 
 const Calculator = () => {
   return (
-    <div className="h-full text-white flex items-center justify-center md:justify-between relative bottom-40 md:bottom-0 sm:w-full md:mb-28">
+    <div className="h-full text-white flex items-center justify-center md:justify-around relative bottom-40 md:bottom-0 sm:w-full md:mb-28">
       <div className="flex-1 space-y-6 flex flex-col justify-center items-center max-w-[430px] md:mx-6 ">
         <h1 className="text-2xl md:text-4xl font-bold">
           Calculadora <br />
@@ -16,7 +16,13 @@ const Calculator = () => {
             <span className="text-[#2C59F9]">&nbsp;compreensiva</span>
           </p>
         </h1>
-        <div className="bg-[#2C59F9] w-72 h-52 rounded-3xl block md:hidden"></div>
+        <div className="w-72 h-52 rounded-3xl block md:hidden">
+          <img
+            src="/assets/calculadora-according.png"
+            alt=""
+            className="w-full h-full"
+          />
+        </div>
         <Accordion type="single" collapsible className="px-4">
           <AccordionItem value="item-1" className="border-none">
             <AccordionTrigger className="text-base md:text-lg font-semibold">
@@ -74,7 +80,13 @@ const Calculator = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className="bg-[#2C59F9] w-2/4 md:h-[30rem] rounded-xl hidden md:block "></div>
+      <div className=" w-2/4 rounded-xl hidden md:block ">
+        <img
+          src="/assets/calculadora-according.png"
+          alt=""
+          className="w-full h-full"
+        />
+      </div>
     </div>
   );
 };
