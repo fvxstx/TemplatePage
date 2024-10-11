@@ -5,8 +5,8 @@ import "../styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PayCoin",
-  description: "PayCoin",
+  title: "Prudent Invest",
+  description: "Prudent Invest",
 };
 
 export default function RootLayout({
